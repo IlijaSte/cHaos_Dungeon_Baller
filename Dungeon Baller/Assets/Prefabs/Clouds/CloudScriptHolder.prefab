@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1572356875649926}
+  m_IsPrefabParent: 1
+--- !u!1 &1572356875649926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4566579670738616}
+  - component: {fileID: 114148007900030434}
+  m_Layer: 0
+  m_Name: CloudScriptHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4566579670738616
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1572356875649926}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2430.352, y: 288.9845, z: 331.13858}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114148007900030434
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1572356875649926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810ecbfcb7656944c8259babd424dc27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloudPrefabs:
+  - {fileID: 1561262015560476, guid: 4ca4c1a7d3cfd7b4f94b633a80b2b3bd, type: 2}
+  - {fileID: 1035880602717906, guid: c92910087d0f7bd4c8e485a98c0cb036, type: 2}
+  - {fileID: 1894990943421032, guid: 1fe68c58526b6724cb78cf75e289d935, type: 2}
+  - {fileID: 1888429628146300, guid: 1aafa15703be42c488540085e9389304, type: 2}
+  - {fileID: 1123808491841220, guid: 5b5bfef92acfb984c8229537bc850164, type: 2}
+  - {fileID: 1134423896022730, guid: fa64992c0eab3d24d890ddaa1e491ef5, type: 2}
+  cloudSpace: {fileID: 0}
+  spawnSpeed: 0

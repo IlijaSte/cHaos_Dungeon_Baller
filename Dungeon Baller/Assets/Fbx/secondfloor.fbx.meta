@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: 41c8621d479f51a42a2406f4a48814af
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: lvl7
+    100002: lvl8
+    100004: SecondFloor
+    100006: //RootNode
+    100008: WALL1
+    100010: WALL2
+    100012: WALL3
+    400000: lvl7
+    400002: lvl8
+    400004: SecondFloor
+    400006: //RootNode
+    400008: WALL1
+    400010: WALL2
+    400012: WALL3
+    2300000: lvl7
+    2300002: lvl8
+    2300004: SecondFloor
+    2300006: WALL1
+    2300008: WALL2
+    2300010: WALL3
+    3300000: lvl7
+    3300002: lvl8
+    3300004: SecondFloor
+    3300006: WALL1
+    3300008: WALL2
+    3300010: WALL3
+    4300000: WALL3
+    4300002: WALL1
+    4300004: WALL2
+    4300006: SecondFloor
+    4300008: lvl7
+    4300010: lvl8
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 8e84a2fe27787334ca6acccdce7386e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 071b1e47c1cb6c14cb113b48d1e333ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: bfae5e03c0d447e48b2b774b5d348d61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: 18c1e8a8d0d7a26469d253565770b915, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover2.001
+    second: {fileID: 2100000, guid: 1bd95e5f04cd82147a3925f7d0111df5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-paper.001
+    second: {fileID: 2100000, guid: 56769d01057157e48878961099a1cb82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-runes
+    second: {fileID: 2100000, guid: 6543599e464f2264fa1469c93432290f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door-knob
+    second: {fileID: 2100000, guid: 306f84ad1d67e4745acb4ee90945c221, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door-knob2
+    second: {fileID: 2100000, guid: 9d4a20f544c7bc54d8993ce0afb6acb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door-wood
+    second: {fileID: 2100000, guid: ae201ed5fe1071a49ba52c7795ee68d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lvl7
+    second: {fileID: 2100000, guid: 616bddd755777c641893d77e946d9ef7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lvl8
+    second: {fileID: 2100000, guid: c03609c2d0926cb4eb1bf9b1cf01872a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lvl9
+    second: {fileID: 2100000, guid: bd84d8ca2d4007d41bb2c8514820e39e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: torch.001
+    second: {fileID: 2100000, guid: b8b257359cb41454785fb492f9a01cef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: torch.002
+    second: {fileID: 2100000, guid: b7ab2c0a068317e4b853f0b55abc86c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: walls-columnsanddetails
+    second: {fileID: 2100000, guid: 1cb07dc3973702944b17fa9a51be9298, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: walls-columnsanddetails.001
+    second: {fileID: 2100000, guid: efadfbc17804e0e458f3fe161f5faf15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: walls-supportingandplatform
+    second: {fileID: 2100000, guid: 2a6f0c6c3cd356045836a75c58761a57, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

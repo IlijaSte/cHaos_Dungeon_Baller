@@ -1,0 +1,277 @@
+fileFormatVersion: 2
+guid: 1cd0bc38826b0434abc40db1c9791589
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Tower
+    100004: Tower_MeshPart0
+    100006: Tower_MeshPart1
+    100008: Tower_MeshPart10
+    100010: Tower_MeshPart2
+    100012: Tower_MeshPart3
+    100014: Tower_MeshPart4
+    100016: Tower_MeshPart5
+    100018: Tower_MeshPart6
+    100020: Tower_MeshPart7
+    100022: Tower_MeshPart8
+    100024: Tower_MeshPart9
+    100026: walllvl10
+    400000: //RootNode
+    400002: Tower
+    400004: Tower_MeshPart0
+    400006: Tower_MeshPart1
+    400008: Tower_MeshPart10
+    400010: Tower_MeshPart2
+    400012: Tower_MeshPart3
+    400014: Tower_MeshPart4
+    400016: Tower_MeshPart5
+    400018: Tower_MeshPart6
+    400020: Tower_MeshPart7
+    400022: Tower_MeshPart8
+    400024: Tower_MeshPart9
+    400026: walllvl10
+    2300000: Tower_MeshPart0
+    2300002: Tower_MeshPart1
+    2300004: Tower_MeshPart10
+    2300006: Tower_MeshPart2
+    2300008: Tower_MeshPart3
+    2300010: Tower_MeshPart4
+    2300012: Tower_MeshPart5
+    2300014: Tower_MeshPart6
+    2300016: Tower_MeshPart7
+    2300018: Tower_MeshPart8
+    2300020: Tower_MeshPart9
+    2300022: walllvl10
+    3300000: Tower_MeshPart0
+    3300002: Tower_MeshPart1
+    3300004: Tower_MeshPart10
+    3300006: Tower_MeshPart2
+    3300008: Tower_MeshPart3
+    3300010: Tower_MeshPart4
+    3300012: Tower_MeshPart5
+    3300014: Tower_MeshPart6
+    3300016: Tower_MeshPart7
+    3300018: Tower_MeshPart8
+    3300020: Tower_MeshPart9
+    3300022: walllvl10
+    4300000: walllvl10
+    4300002: Tower_MeshPart0
+    4300004: Tower_MeshPart1
+    4300006: Tower_MeshPart2
+    4300008: Tower_MeshPart3
+    4300010: Tower_MeshPart4
+    4300012: Tower_MeshPart5
+    4300014: Tower_MeshPart6
+    4300016: Tower_MeshPart7
+    4300018: Tower_MeshPart8
+    4300020: Tower_MeshPart9
+    4300022: Tower_MeshPart10
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover1
+    second: {fileID: 2100000, guid: b8c8333db7e55694ab1ac2673fd81ae5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover2.019
+    second: {fileID: 2100000, guid: 2b4b5941daf6bec41b116c5f60f85ddc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover3.019
+    second: {fileID: 2100000, guid: b43bac52f0e3cd041add3738f4aa00f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover4.038
+    second: {fileID: 2100000, guid: 2ac76bd3b96d7fc40a8599d81f6754cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover4.039
+    second: {fileID: 2100000, guid: facf08d57f0ae784991911afded87992, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover5.001
+    second: {fileID: 2100000, guid: e935e56c3c6d46848b12628718824fbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover6.001
+    second: {fileID: 2100000, guid: bccf310c84acb67458aa7e76798d79bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover7.001
+    second: {fileID: 2100000, guid: 11deb6e9e4c36ca4498a7541a0601e86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover8
+    second: {fileID: 2100000, guid: 2cb4fc570d68bdd469088a6141d80b39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-mark1.019
+    second: {fileID: 2100000, guid: 39704665c976840408a8017640de5cfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-mark3.019
+    second: {fileID: 2100000, guid: e8fb572d4678fe34d8e75088ef9e5e15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-paper
+    second: {fileID: 2100000, guid: 971430a375abffa4eb804914cf10cff0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chains
+    second: {fileID: 2100000, guid: 2f1aa3c34986ead49a0b911f78445046, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: collumns-outerwalls
+    second: {fileID: 2100000, guid: 4f25036121d7d85458bc8b8999448f44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door-knob
+    second: {fileID: 2100000, guid: 306f84ad1d67e4745acb4ee90945c221, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door-knob2
+    second: {fileID: 2100000, guid: 9d4a20f544c7bc54d8993ce0afb6acb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door-wood
+    second: {fileID: 2100000, guid: ae201ed5fe1071a49ba52c7795ee68d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fireplace-brownrock
+    second: {fileID: 2100000, guid: 24e3a5f2dec240142b3eb070adaa042f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fireplace-woodsticks+chairdetails
+    second: {fileID: 2100000, guid: 53870ab59b2cb854aa21f9b3ca7b56ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gridlvl10
+    second: {fileID: 2100000, guid: 8362bed4f73108e40bd8a34e6fbeb9dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: torch
+    second: {fileID: 2100000, guid: 8f0a3f8fb4cd21942befa1a8824fae42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tower-details
+    second: {fileID: 2100000, guid: c76e7e3687018dc4c8103abf3709b494, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tower-stone
+    second: {fileID: 2100000, guid: 3fa1ac0905957564d9c54ae7e5c90740, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: walls-supportingandplatform.006
+    second: {fileID: 2100000, guid: edc9fbb3e48b3a649a0a6e98072826fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood-bookshelves etc
+    second: {fileID: 2100000, guid: 93e7273632effb64e845fc7f61a328f8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
