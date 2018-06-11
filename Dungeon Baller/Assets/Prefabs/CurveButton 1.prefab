@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 114484736720529896}
   - component: {fileID: 114619544347958384}
   m_Layer: 5
-  m_Name: curve
+  m_Name: CurveButton 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

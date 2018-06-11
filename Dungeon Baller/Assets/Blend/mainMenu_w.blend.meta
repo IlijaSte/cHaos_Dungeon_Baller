@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: 28eeff75c09d7294cbe75a9cd956d742
+timeCreated: 1528509825
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Chains
+    100002: Empty
+    100004: Empty_001
+    100006: Icosphere
+    100008: //RootNode
+    100010: Terrain
+    100012: Tower
+    100014: Tower_MeshPart0
+    100016: Tower_MeshPart1
+    100018: Tower_MeshPart2
+    100020: Tower_MeshPart3
+    100022: Tower_MeshPart4
+    100024: Tower_MeshPart5
+    100026: Tower_MeshPart6
+    100028: Tower_MeshPart7
+    100030: TowerBridge
+    100032: TowerBridge_MeshPart0
+    100034: TowerBridge_MeshPart1
+    100036: TowerWalls2ndFloor
+    100038: TowerWalls3rdFloor
+    100040: TowerWalls4thFloor
+    100042: TowerWalls4thFloor_MeshPart0
+    100044: TowerWalls4thFloor_MeshPart1
+    100046: TowerWalls4thFloor_MeshPart2
+    100048: TowerWalls4thFloor_MeshPart3
+    100050: TowerWalls4thFloor_MeshPart4
+    100052: TreesNew
+    100054: TreesNew_MeshPart0
+    100056: TreesNew_MeshPart1
+    100058: waterfall
+    100060: waterfall_001
+    100062: waterfall_002
+    400000: Chains
+    400002: Empty
+    400004: Empty_001
+    400006: Icosphere
+    400008: //RootNode
+    400010: Terrain
+    400012: Tower
+    400014: Tower_MeshPart0
+    400016: Tower_MeshPart1
+    400018: Tower_MeshPart2
+    400020: Tower_MeshPart3
+    400022: Tower_MeshPart4
+    400024: Tower_MeshPart5
+    400026: Tower_MeshPart6
+    400028: Tower_MeshPart7
+    400030: TowerBridge
+    400032: TowerBridge_MeshPart0
+    400034: TowerBridge_MeshPart1
+    400036: TowerWalls2ndFloor
+    400038: TowerWalls3rdFloor
+    400040: TowerWalls4thFloor
+    400042: TowerWalls4thFloor_MeshPart0
+    400044: TowerWalls4thFloor_MeshPart1
+    400046: TowerWalls4thFloor_MeshPart2
+    400048: TowerWalls4thFloor_MeshPart3
+    400050: TowerWalls4thFloor_MeshPart4
+    400052: TreesNew
+    400054: TreesNew_MeshPart0
+    400056: TreesNew_MeshPart1
+    400058: waterfall
+    400060: waterfall_001
+    400062: waterfall_002
+    2300000: Chains
+    2300002: Icosphere
+    2300004: Terrain
+    2300006: Tower_MeshPart0
+    2300008: Tower_MeshPart1
+    2300010: Tower_MeshPart2
+    2300012: Tower_MeshPart3
+    2300014: Tower_MeshPart4
+    2300016: Tower_MeshPart5
+    2300018: Tower_MeshPart6
+    2300020: Tower_MeshPart7
+    2300022: TowerBridge_MeshPart0
+    2300024: TowerBridge_MeshPart1
+    2300026: TowerWalls2ndFloor
+    2300028: TowerWalls3rdFloor
+    2300030: TowerWalls4thFloor_MeshPart0
+    2300032: TowerWalls4thFloor_MeshPart1
+    2300034: TowerWalls4thFloor_MeshPart2
+    2300036: TowerWalls4thFloor_MeshPart3
+    2300038: TowerWalls4thFloor_MeshPart4
+    2300040: TreesNew_MeshPart0
+    2300042: TreesNew_MeshPart1
+    2300044: waterfall
+    2300046: waterfall_001
+    2300048: waterfall_002
+    3300000: Chains
+    3300002: Icosphere
+    3300004: Terrain
+    3300006: Tower_MeshPart0
+    3300008: Tower_MeshPart1
+    3300010: Tower_MeshPart2
+    3300012: Tower_MeshPart3
+    3300014: Tower_MeshPart4
+    3300016: Tower_MeshPart5
+    3300018: Tower_MeshPart6
+    3300020: Tower_MeshPart7
+    3300022: TowerBridge_MeshPart0
+    3300024: TowerBridge_MeshPart1
+    3300026: TowerWalls2ndFloor
+    3300028: TowerWalls3rdFloor
+    3300030: TowerWalls4thFloor_MeshPart0
+    3300032: TowerWalls4thFloor_MeshPart1
+    3300034: TowerWalls4thFloor_MeshPart2
+    3300036: TowerWalls4thFloor_MeshPart3
+    3300038: TowerWalls4thFloor_MeshPart4
+    3300040: TreesNew_MeshPart0
+    3300042: TreesNew_MeshPart1
+    3300044: waterfall
+    3300046: waterfall_001
+    3300048: waterfall_002
+    4300000: TowerWalls4thFloor_MeshPart0
+    4300002: TowerWalls4thFloor_MeshPart1
+    4300004: TowerWalls4thFloor_MeshPart2
+    4300006: TowerWalls4thFloor_MeshPart3
+    4300008: TowerWalls4thFloor_MeshPart4
+    4300010: TowerWalls2ndFloor
+    4300012: TowerWalls3rdFloor
+    4300014: Tower_MeshPart0
+    4300016: Tower_MeshPart1
+    4300018: Tower_MeshPart2
+    4300020: Tower_MeshPart3
+    4300022: Tower_MeshPart4
+    4300024: Tower_MeshPart5
+    4300026: Tower_MeshPart6
+    4300028: Tower_MeshPart7
+    4300030: waterfall_002
+    4300032: Terrain
+    4300034: waterfall_001
+    4300036: Chains
+    4300038: TreesNew_MeshPart0
+    4300040: TreesNew_MeshPart1
+    4300042: Icosphere
+    4300044: TowerBridge_MeshPart0
+    4300046: TowerBridge_MeshPart1
+    4300048: waterfall
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
