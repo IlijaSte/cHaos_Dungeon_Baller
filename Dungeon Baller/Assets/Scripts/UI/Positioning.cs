@@ -25,7 +25,16 @@ public class Positioning : MonoBehaviour {
 		if (isPositioning) {
 			
 			hideButtons ();
-			if (!PlaySimulation.isSimActive) {
+
+            string name = ElementPlacing.truncateNumbers(placedElem.name);
+
+            if (ep.getObjectNum(name) < transform.GetComponent<InvOpen>().panel.GetComponent<AvailElemManager>().getCount(name))
+            {
+                ElementPlacing.currHold = ElementPlacing.truncateNumbers(placedElem.name);
+                ElementPlacing.holding = true;
+            }
+
+            if (!PlaySimulation.isSimActive) {
 				if (placedElem.name.Contains ("ramp")) {
 					BlockHover.showRampGrid ();
 				} else
@@ -46,8 +55,9 @@ public class Positioning : MonoBehaviour {
 			ElementPlacing.CheckButton.GetComponent<Button> ().interactable = true;
 			ElementPlacing.LeftRotButton.GetComponent<Button> ().interactable = true;
 			ElementPlacing.RightRotButton.GetComponent<Button> ().interactable = true;
-			Positioning.parent = ElementPlacing.CheckButton.transform.parent;
-			Positioning.parent.position = Camera.main.WorldToScreenPoint (placedElem.transform.position);
+
+			parent = ElementPlacing.CheckButton.transform.parent;
+			parent.position = Camera.main.WorldToScreenPoint (placedElem.transform.position);
 			if ((Camera.main.WorldToScreenPoint (placedElem.transform.position) + new Vector3 (0, ElementPlacing.CheckButton.GetComponent<RectTransform> ().rect.height * 2.5f, 0)).y > Screen.height){
 				resetButtonPos ();
 
@@ -75,8 +85,9 @@ public class Positioning : MonoBehaviour {
 			ElementPlacing.CheckButton.GetComponent<Button> ().interactable = false;
 			ElementPlacing.LeftRotButton.GetComponent<Button> ().interactable = false;
 			ElementPlacing.RightRotButton.GetComponent<Button> ().interactable = false;
-			Positioning.parent = ElementPlacing.CheckButton.transform.parent;
-			Positioning.parent.position = Positioning.parentStartPos;
+
+			parent = ElementPlacing.CheckButton.transform.parent;
+			parent.position = parentStartPos;
 			resetButtonPos ();
 
 			isPositioning = false;
@@ -86,16 +97,16 @@ public class Positioning : MonoBehaviour {
 	public void RotateRight(){
 		if (placedElem.GetComponent<ElementProperties> ().rotatable) {
 
-			placedElem.transform.rotation = Quaternion.Euler (new Vector3 (placedElem.transform.rotation.eulerAngles.x, placedElem.transform.rotation.eulerAngles.y + 90, placedElem.transform.rotation.eulerAngles.z));
-	
-		}
+			//placedElem.transform.rotation = Quaternion.Euler (new Vector3 (placedElem.transform.rotation.eulerAngles.x, placedElem.transform.rotation.eulerAngles.y + 90, placedElem.transform.rotation.eulerAngles.z));
+            placedElem.GetComponent<ElementProperties>().rotate(90);
+        }
 	}
 
 	public void RotateLeft(){
 		if (placedElem.GetComponent<ElementProperties> ().rotatable) {
 			
-			placedElem.transform.rotation = Quaternion.Euler (new Vector3 (placedElem.transform.rotation.eulerAngles.x, placedElem.transform.rotation.eulerAngles.y - 90, placedElem.transform.rotation.eulerAngles.z));
-
+			//placedElem.transform.rotation = Quaternion.Euler (new Vector3 (placedElem.transform.rotation.eulerAngles.x, placedElem.transform.rotation.eulerAngles.y - 90, placedElem.transform.rotation.eulerAngles.z));
+            placedElem.GetComponent<ElementProperties>().rotate(-90);
 		}
 	}
 
@@ -127,7 +138,7 @@ public class Positioning : MonoBehaviour {
 		if (isPositioning && placedElem == null) {
 			hideButtons ();
 		} else if (isPositioning) {
-			Positioning.parent = ElementPlacing.CheckButton.transform.parent;
+			parent = ElementPlacing.CheckButton.transform.parent;
 			parent.position = Camera.main.WorldToScreenPoint (placedElem.transform.position);
 			resetButtonPos ();
 			if ((Camera.main.WorldToScreenPoint (placedElem.transform.position) + new Vector3 (0, ElementPlacing.CheckButton.GetComponent<RectTransform> ().rect.height * 2.5f, 0)).y > Screen.height) {
