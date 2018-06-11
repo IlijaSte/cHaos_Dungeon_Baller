@@ -183,7 +183,7 @@ MonoBehaviour:
   setdirNum: 0
   rampNum: 4
   pistonBlockNum: 0
-  ep: {fileID: 0}
+  ep: {fileID: 114797002674661334, guid: 2f53bd55f1e2db448b0b4a14707f9d62, type: 2}
 --- !u!114 &114275734369785290
 MonoBehaviour:
   m_ObjectHideFlags: 1
