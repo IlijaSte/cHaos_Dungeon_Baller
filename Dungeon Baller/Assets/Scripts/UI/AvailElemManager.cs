@@ -19,7 +19,7 @@ public class AvailElemManager : MonoBehaviour {
 	public int rampNum;
 	public int pistonBlockNum;
 
-	public ElementPlacing ep;
+	private ElementPlacing ep;
 
 	public struct AvailElement{
 
