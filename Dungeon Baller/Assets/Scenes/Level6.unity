@@ -2261,6 +2261,8 @@ MonoBehaviour:
   speed: 0.1
   newTransform: {fileID: 0}
   topRotY: 90
+  downSprite: {fileID: 0}
+  downPressedSprite: {fileID: 0}
 --- !u!1 &930647197 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1300975281160324, guid: aec8d7bc4b97d204dafd39bcf8ecaa03,
@@ -3507,6 +3509,8 @@ MonoBehaviour:
   speed: 1
   newTransform: {fileID: 1848672490}
   topRotY: 0
+  downSprite: {fileID: 21300000, guid: 0f52d9da753cc264c92f46e21182f5a6, type: 3}
+  downPressedSprite: {fileID: 21300000, guid: 1af0faea4c08d4e49abbc5729ed424a7, type: 3}
 --- !u!114 &1346557166
 MonoBehaviour:
   m_ObjectHideFlags: 0

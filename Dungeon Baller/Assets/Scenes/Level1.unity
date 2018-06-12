@@ -203,6 +203,18 @@ Prefab:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1832364005}
+    - target: {fileID: 114473369549303282, guid: b2d31917b1c8ba9438c3e8b22db2f596,
+        type: 2}
+      propertyPath: downSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0f52d9da753cc264c92f46e21182f5a6,
+        type: 3}
+    - target: {fileID: 114473369549303282, guid: b2d31917b1c8ba9438c3e8b22db2f596,
+        type: 2}
+      propertyPath: downPressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1af0faea4c08d4e49abbc5729ed424a7,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b2d31917b1c8ba9438c3e8b22db2f596, type: 2}
   m_IsPrefabParent: 0
@@ -1868,6 +1880,8 @@ MonoBehaviour:
   speed: 0.1
   newTransform: {fileID: 0}
   topRotY: 90
+  downSprite: {fileID: 0}
+  downPressedSprite: {fileID: 0}
 --- !u!1001 &903711425
 Prefab:
   m_ObjectHideFlags: 0
