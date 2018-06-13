@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TopView : MonoBehaviour {
 
@@ -28,6 +29,13 @@ public class TopView : MonoBehaviour {
 	private Material[] transpMats;
 	private MeshRenderer mr;
 
+    private Sprite upSprite;
+    private Sprite upPressedSprite;
+    public Sprite downSprite;
+    public Sprite downPressedSprite;
+    private Image buttonImg;
+    private Button button;
+
 	void Start () {
 
 		mainCam = GameObject.Find ("Main Camera");
@@ -45,6 +53,13 @@ public class TopView : MonoBehaviour {
 			transpMats [j] = transpMat;
 		}
 		mr.materials = transpMats;
+
+        GameObject btn = GameObject.Find("TopDownButton");
+        buttonImg = btn.GetComponent<Image>();
+        upSprite = buttonImg.sprite;
+       
+        button = btn.GetComponent<Button>();
+        upPressedSprite = button.spriteState.pressedSprite;
 	}
 		
 	public void changeToTop(GameObject go){
@@ -52,6 +67,12 @@ public class TopView : MonoBehaviour {
 		if (!isTop) {
 			
 			if (!movingOut && !movingIn) {
+
+                buttonImg.sprite = downSprite;
+                SpriteState ss = new SpriteState();
+                ss.pressedSprite = downPressedSprite;
+                button.spriteState = ss;
+
 				i = 0f;
 				isTop = true;
 				movingOut = true;
@@ -60,7 +81,13 @@ public class TopView : MonoBehaviour {
 			}
 		} else {
 			if (!movingIn && !movingOut) {
-				i = 0f;
+
+                buttonImg.sprite = upSprite;
+                SpriteState ss = new SpriteState();
+                ss.pressedSprite = upPressedSprite;
+                button.spriteState = ss;
+
+                i = 0f;
 				movingIn = true;
 				isTop = false;
 				go.GetComponent<MeshRenderer> ().enabled = true;

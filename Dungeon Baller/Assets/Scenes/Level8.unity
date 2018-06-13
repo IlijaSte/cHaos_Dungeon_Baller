@@ -3558,6 +3558,8 @@ MonoBehaviour:
   speed: 0.1
   newTransform: {fileID: 0}
   topRotY: 90
+  downSprite: {fileID: 0}
+  downPressedSprite: {fileID: 0}
 --- !u!1001 &903711425
 Prefab:
   m_ObjectHideFlags: 0
@@ -5852,6 +5854,8 @@ MonoBehaviour:
   speed: 1
   newTransform: {fileID: 1848672490}
   topRotY: 90
+  downSprite: {fileID: 21300000, guid: 0f52d9da753cc264c92f46e21182f5a6, type: 3}
+  downPressedSprite: {fileID: 21300000, guid: 1af0faea4c08d4e49abbc5729ed424a7, type: 3}
 --- !u!114 &1346557166
 MonoBehaviour:
   m_ObjectHideFlags: 0
