@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 093be65503560d74e9c6a33d581e5324
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Ball
+    100004: BookShelves
+    100006: Curve_000
+    100008: Tower
+    100010: walllvl10
+    400000: //RootNode
+    400002: Ball
+    400004: BookShelves
+    400006: Curve_000
+    400008: Tower
+    400010: walllvl10
+    2100000: stone
+    2100002: core_004
+    2100004: tower-stone
+    2100006: gridlvl10
+    2100008: chain
+    2100010: corner
+    2100012: walls-supportingandplatform_006
+    2100014: torch
+    2100016: door-wood
+    2100018: collumns-outerwalls
+    2100020: tower-details
+    2100022: fireplace-woodsticks_chairdetails
+    2100024: fireplace-brownrock
+    2100026: door-knob
+    2100028: door-knob2
+    2100030: Material
+    2100032: books-cover4_039
+    2100034: books-paper
+    2100036: books-cover2_019
+    2100038: books-cover8
+    2100040: books-cover3_019
+    2100042: books-cover1
+    2100044: books-mark1_019
+    2100046: books-mark3_019
+    2100048: books-cover4_038
+    2100050: books-cover6_001
+    2100052: books-cover5_001
+    2100054: wood-bookshelves_etc
+    2100056: books-cover7_001
+    2100058: ballcore
+    2100060: ballsurface
+    2300000: Ball
+    2300002: BookShelves
+    2300004: Curve_000
+    2300006: Tower
+    2300008: walllvl10
+    3300000: Ball
+    3300002: BookShelves
+    3300004: Curve_000
+    3300006: Tower
+    3300008: walllvl10
+    4300000: Curve_000
+    4300002: walllvl10
+    4300004: Tower
+    4300006: BookShelves
+    4300008: Ball
+    7400000: Default Take
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
