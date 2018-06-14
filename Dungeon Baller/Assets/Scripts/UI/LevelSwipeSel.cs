@@ -35,6 +35,19 @@ public class LevelSwipeSel : MonoBehaviour {
 	LevelNameHolder lnhCur;
 	LevelNameHolder lnhNext;
 
+    private Material[] makeTranspMats(Material transpMat, int length)
+    {
+
+        Material[] mats = new Material[length];
+        for(int i = 0; i < length; i++)
+        {
+            mats[i] = transpMat;
+        }
+
+        return mats;
+
+    }
+
 	void Start () {
 
 		camtr = camera.GetComponent<Transform> ();
@@ -46,12 +59,8 @@ public class LevelSwipeSel : MonoBehaviour {
 		LevelNameHolder lnm = camPositions.transform.GetChild (curPos).gameObject.GetComponent<LevelNameHolder> ();
 		if (lnm.transpWall) {
 			int numOfMats = lnm.transpWall.GetComponent<MeshRenderer> ().materials.Length;
-			Material[] mats = new Material[numOfMats];
-			for (int j = 0; j < numOfMats; j++) {
-				mats [j] = lnm.transpMaterial;
-			}
-			lnm.transpWall.GetComponent<MeshRenderer> ().materials = mats;
-			lnm.transpWall.GetComponent<MeshRenderer> ().material = lnm.transpMaterial;
+			
+			lnm.transpWall.GetComponent<MeshRenderer> ().materials = makeTranspMats(lnm.transpMaterial, numOfMats);
 		}
 
 		// postavljanje intenziteta svetla i tame
@@ -79,6 +88,7 @@ public class LevelSwipeSel : MonoBehaviour {
 		return r;
 	}
 
+    // izvlacenje broja levela iz stringa tipa "Level12"
 	public static int extractNumbers(string s){
 
 		string nums = "";
@@ -91,7 +101,19 @@ public class LevelSwipeSel : MonoBehaviour {
 
 	}
 
-	bool changedMat = false;
+    private void prepTransp(LevelNameHolder lnh, int val)
+    {
+        MeshRenderer curMr = lnh.transpWall.GetComponent<MeshRenderer>();
+        curMr.materials = makeTranspMats(lnh.transpMaterial, curMr.materials.Length);
+
+        int p = 0;
+        foreach (Material mat in curMr.materials)
+        {
+            mat.Lerp(mat, lnh.origMaterials[p], val);
+            p++;
+        }
+
+    }
 
 	void FixedUpdate () {
 
@@ -117,7 +139,6 @@ public class LevelSwipeSel : MonoBehaviour {
 				if (Mathf.Abs (deltaX) > Screen.width / 5) {
 					return;
 				}
-				print (deltaX);
 				if (deltaX > 0) {
 
 					if (dir == 1) {
@@ -130,7 +151,7 @@ public class LevelSwipeSel : MonoBehaviour {
 						i += deltaX;
 					initClickPos = new Vector2 (Input.mousePosition.x, Input.mousePosition.y);
 
-					if (i > Screen.width / 5) {
+					if (i > Screen.width / 6) {
 						
 						i = 0f;
 						k = 0f;
@@ -145,7 +166,7 @@ public class LevelSwipeSel : MonoBehaviour {
 
 						lnhCur = camPositions.transform.GetChild (curPos).gameObject.GetComponent<LevelNameHolder> ();
 						lnhNext = camPositions.transform.GetChild (nextPos).gameObject.GetComponent<LevelNameHolder> ();
-						print (lnhNext.lockedPreview);
+
 						if (lnhNext.lockedPreview) {
 							moving = true;
 							if (!CollectManager.levelsPassed [extractNumbers (lnhNext.levelName)]) {
@@ -167,7 +188,15 @@ public class LevelSwipeSel : MonoBehaviour {
 							selectButton.transform.GetChild (0).GetComponent<Text> ().enabled = false;
 							rotateAngle = newPos.transform.rotation.y - oldPos.transform.rotation.y;
 
-							if (go) {
+                            //lnhCur.transpWall.GetComponent<MeshRenderer>().materials = makeTranspMats(lnhCur.transpMaterial, lnhCur.transpWall.GetComponent<MeshRenderer>().materials.Length);
+                            //lnhNext.transpWall.GetComponent<MeshRenderer>().materials = makeTranspMats(lnhNext.transpMaterial, lnhNext.transpWall.GetComponent<MeshRenderer>().materials.Length);
+
+                            if (lnhCur.transpWall)
+                                prepTransp(lnhCur, 0);
+                            if (lnhNext.transpWall)
+                                prepTransp(lnhNext, 1);
+
+                            if (go) {
 								camtr.transform.parent = null;
 								Destroy (go);
 							}
@@ -177,6 +206,8 @@ public class LevelSwipeSel : MonoBehaviour {
 								go.transform.rotation = Quaternion.Euler (new Vector3 (0, camtr.rotation.eulerAngles.y, 0));
 								transform.parent = go.transform;
 							}
+
+                          
 						}
 			
 					}
@@ -190,7 +221,7 @@ public class LevelSwipeSel : MonoBehaviour {
 					else
 						i += deltaX;
 					initClickPos = new Vector2 (Input.mousePosition.x, Input.mousePosition.y);
-					if (i < -Screen.width / 5) {
+					if (i < -Screen.width / 6) {
 
 
 						i = 0f;
@@ -230,7 +261,32 @@ public class LevelSwipeSel : MonoBehaviour {
 							selectButton.transform.GetChild (0).GetComponent<Text> ().enabled = false;
 							rotateAngle = newPos.transform.rotation.y - oldPos.transform.rotation.y;
 
-							if (go) {
+                            // PRIPREMA ZA PROMENU TRANSPARENTNOSTI
+                            /*MeshRenderer curMr = lnhCur.transpWall.GetComponent<MeshRenderer>();
+                            MeshRenderer nextMr = lnhNext.transpWall.GetComponent<MeshRenderer>();
+                            curMr.materials = makeTranspMats(lnhCur.transpMaterial, curMr.materials.Length);
+                            nextMr.materials = makeTranspMats(lnhNext.transpMaterial, nextMr.materials.Length);
+
+                            int p = 0;
+                            foreach(Material mat in curMr.materials)
+                            {
+                                mat.Lerp(mat, lnhCur.origMaterials[p], 1);
+                                p++;
+                            }
+
+                            p = 0;
+                            foreach (Material mat in nextMr.materials)
+                            {
+                                mat.Lerp(mat, lnhNext.origMaterials[p], 1);
+                                p++;
+                            }*/
+
+                            if(lnhCur.transpWall)
+                                prepTransp(lnhCur, 0);
+                            if (lnhNext.transpWall)
+                                prepTransp(lnhNext, 1);
+
+                            if (go) {
 								camtr.transform.parent = null;
 								camtr.rotation = Quaternion.Euler (camtr.rotation.eulerAngles.x, go.transform.rotation.eulerAngles.y, camtr.rotation.eulerAngles.z);
 								Destroy (go);
@@ -276,6 +332,7 @@ public class LevelSwipeSel : MonoBehaviour {
 				if (lnh.lockedPreview)
 					numChild++;
 			}
+            // OVDE SE DESAVA POMERANJE
 			if(k < 1){
 				LevelNameHolder lnmOld = camPositions.transform.GetChild (curPos).gameObject.GetComponent<LevelNameHolder> ();
 				LevelNameHolder lnmNew = camPositions.transform.GetChild (nextPos).gameObject.GetComponent<LevelNameHolder> ();
@@ -292,19 +349,24 @@ public class LevelSwipeSel : MonoBehaviour {
 
 				}
 
-				if ((lnmOld.transpWall != null) && (Mathf.Abs (r) < Mathf.Abs (p / 2)) && !changedMat) {
-					
-					MeshRenderer mr = lnmNew.transpWall.GetComponent<MeshRenderer> ();
+                if (lnmOld.transpWall != null)
+                {
+                    print("old has transpWall");
+                    MeshRenderer mr = lnmNew.transpWall.GetComponent<MeshRenderer> ();
 					Material[] mats = new Material[mr.materials.Length];
-					lnmOld.transpWall.GetComponent<MeshRenderer> ().materials = lnmOld.origMaterials;
+                    MeshRenderer mrOld = lnmOld.transpWall.GetComponent<MeshRenderer>();
+                    Material[] oldMats = new Material[mrOld.materials.Length];
 
 					for(int j = 0; j < mr.materials.Length; j++) {
-
-						mats[j] = lnmNew.transpMaterial;
+                        mr.materials[j].Lerp(lnmNew.origMaterials[j], lnmNew.transpMaterial, k);
 					}
-					mr.materials = mats;
-					changedMat = true;
-				}
+
+                    for (int j = 0; j < mrOld.materials.Length; j++)
+                    {
+                        mrOld.materials[j].Lerp(lnmOld.transpMaterial, lnmOld.origMaterials[j], k);
+                    }
+
+                }
 
 			}else{
 				moving = false;
@@ -320,7 +382,8 @@ public class LevelSwipeSel : MonoBehaviour {
 				
 				initClickPos = new Vector2 (Input.mousePosition.x, Input.mousePosition.y);
 
-				changedMat = false;
+                
+
 				if (CollectManager.levelsPassed [extractNumbers (camPositions.transform.GetChild (nextPos).gameObject.GetComponent<LevelNameHolder> ().levelName)]) {
 					selectButton.enabled = true;
 					selectButton.GetComponent<Image> ().enabled = true;
