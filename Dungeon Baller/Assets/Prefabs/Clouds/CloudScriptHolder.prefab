@@ -52,11 +52,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cloudPrefabs:
-  - {fileID: 1561262015560476, guid: 4ca4c1a7d3cfd7b4f94b633a80b2b3bd, type: 2}
-  - {fileID: 1035880602717906, guid: c92910087d0f7bd4c8e485a98c0cb036, type: 2}
-  - {fileID: 1894990943421032, guid: 1fe68c58526b6724cb78cf75e289d935, type: 2}
-  - {fileID: 1888429628146300, guid: 1aafa15703be42c488540085e9389304, type: 2}
-  - {fileID: 1123808491841220, guid: 5b5bfef92acfb984c8229537bc850164, type: 2}
-  - {fileID: 1134423896022730, guid: fa64992c0eab3d24d890ddaa1e491ef5, type: 2}
+  - {fileID: 1724861091792166, guid: 7cb4e124d564798408bd535a28d0e6b7, type: 2}
+  - {fileID: 1319186986550876, guid: 20dc0cca47cff0149bd56bd124ed45ae, type: 2}
+  - {fileID: 1675788573656564, guid: a1e9ec9e083d091428602100b6844722, type: 2}
+  - {fileID: 1020305552766560, guid: a21c126e2cc71ab4e8b50d93df344ba5, type: 2}
+  - {fileID: 1296622399795688, guid: 46992d82df0c26747a6b0ec38e2d82c2, type: 2}
+  - {fileID: 1944629823309954, guid: 27abc22e9ff4a8547869069638cffd39, type: 2}
   cloudSpace: {fileID: 0}
   spawnSpeed: 0

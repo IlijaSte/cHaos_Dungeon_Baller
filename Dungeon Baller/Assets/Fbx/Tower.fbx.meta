@@ -6,15 +6,92 @@ ModelImporter:
     100000: Sphere
     100002: //RootNode
     100004: Tower
+    100006: Tower_MeshPart0
+    100008: Tower_MeshPart1
+    100010: Tower_MeshPart2
+    100012: Tower_MeshPart3
+    100014: Tower_MeshPart4
+    100016: Tower_MeshPart5
+    100018: Tower_MeshPart6
+    100020: Tower_MeshPart7
+    100022: Walls2ndFloor
+    100024: Walls3rdFloor
+    100026: Walls4thFloor
+    100028: Walls4thFloor_MeshPart0
+    100030: Walls4thFloor_MeshPart1
+    100032: Walls4thFloor_MeshPart2
+    100034: Walls4thFloor_MeshPart3
+    100036: Walls4thFloor_MeshPart4
     400000: Sphere
     400002: //RootNode
     400004: Tower
+    400006: Tower_MeshPart0
+    400008: Tower_MeshPart1
+    400010: Tower_MeshPart2
+    400012: Tower_MeshPart3
+    400014: Tower_MeshPart4
+    400016: Tower_MeshPart5
+    400018: Tower_MeshPart6
+    400020: Tower_MeshPart7
+    400022: Walls2ndFloor
+    400024: Walls3rdFloor
+    400026: Walls4thFloor
+    400028: Walls4thFloor_MeshPart0
+    400030: Walls4thFloor_MeshPart1
+    400032: Walls4thFloor_MeshPart2
+    400034: Walls4thFloor_MeshPart3
+    400036: Walls4thFloor_MeshPart4
     2300000: Sphere
     2300002: Tower
+    2300004: Tower_MeshPart0
+    2300006: Tower_MeshPart1
+    2300008: Tower_MeshPart2
+    2300010: Tower_MeshPart3
+    2300012: Tower_MeshPart4
+    2300014: Tower_MeshPart5
+    2300016: Tower_MeshPart6
+    2300018: Tower_MeshPart7
+    2300020: Walls2ndFloor
+    2300022: Walls3rdFloor
+    2300024: Walls4thFloor_MeshPart0
+    2300026: Walls4thFloor_MeshPart1
+    2300028: Walls4thFloor_MeshPart2
+    2300030: Walls4thFloor_MeshPart3
+    2300032: Walls4thFloor_MeshPart4
     3300000: Sphere
     3300002: Tower
+    3300004: Tower_MeshPart0
+    3300006: Tower_MeshPart1
+    3300008: Tower_MeshPart2
+    3300010: Tower_MeshPart3
+    3300012: Tower_MeshPart4
+    3300014: Tower_MeshPart5
+    3300016: Tower_MeshPart6
+    3300018: Tower_MeshPart7
+    3300020: Walls2ndFloor
+    3300022: Walls3rdFloor
+    3300024: Walls4thFloor_MeshPart0
+    3300026: Walls4thFloor_MeshPart1
+    3300028: Walls4thFloor_MeshPart2
+    3300030: Walls4thFloor_MeshPart3
+    3300032: Walls4thFloor_MeshPart4
     4300000: Sphere
     4300002: Tower
+    4300004: Walls2ndFloor
+    4300006: Walls3rdFloor
+    4300008: Walls4thFloor_MeshPart0
+    4300010: Walls4thFloor_MeshPart1
+    4300012: Walls4thFloor_MeshPart2
+    4300014: Walls4thFloor_MeshPart3
+    4300016: Walls4thFloor_MeshPart4
+    4300018: Tower_MeshPart0
+    4300020: Tower_MeshPart1
+    4300022: Tower_MeshPart2
+    4300024: Tower_MeshPart3
+    4300026: Tower_MeshPart4
+    4300028: Tower_MeshPart5
+    4300030: Tower_MeshPart6
+    4300032: Tower_MeshPart7
     2186277476908879412: ImportLogs
   externalObjects:
   - first:
@@ -57,6 +134,346 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: No Name
     second: {fileID: 2100000, guid: ad54d62a0bbb8b04bad53697a92ed2a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover1.001
+    second: {fileID: 2100000, guid: 27a7861fb06d2924f98b347cdac5b669, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover1.002
+    second: {fileID: 2100000, guid: 82198167bda255940aceba9eb1284f0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover2.001
+    second: {fileID: 2100000, guid: 1bd95e5f04cd82147a3925f7d0111df5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover2.002
+    second: {fileID: 2100000, guid: f08859ad56ee0594487d4c82de01fe84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover2.003
+    second: {fileID: 2100000, guid: 7e9f760a2ddb00243a71b622cc4b1b23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover3.001
+    second: {fileID: 2100000, guid: 9b17eb3ce91662f49a2567e05c114bbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover3.002
+    second: {fileID: 2100000, guid: 90c52beb05cd77e4da22c16c2f7da0f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover4.002
+    second: {fileID: 2100000, guid: e95e9258876361d438f5e15070fcb461, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover4.003
+    second: {fileID: 2100000, guid: cb31cffbd2280cb4da97a43fb569858d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover4.004
+    second: {fileID: 2100000, guid: 289ac6b3df012704f8d983c2b585810c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover5
+    second: {fileID: 2100000, guid: 65d6599a3484bc84488fc9cc7604711e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover6
+    second: {fileID: 2100000, guid: 3a14a22de5970e0439e9c187840dcc3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover7
+    second: {fileID: 2100000, guid: dc83e5d9e57b5d844a27a51f16c3cd7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover8
+    second: {fileID: 2100000, guid: 2cb4fc570d68bdd469088a6141d80b39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-cover9
+    second: {fileID: 2100000, guid: 9142b6b7354e38c45a0c91dd59b21842, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-mark1.001
+    second: {fileID: 2100000, guid: 23792128eecd605478b2bf6f4b1104b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-mark1.002
+    second: {fileID: 2100000, guid: 7861e748da754e8479704ef107e4b869, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-mark3.001
+    second: {fileID: 2100000, guid: 417b8b4e6f07b284d9ce7ee6a9cf62d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-mark3.002
+    second: {fileID: 2100000, guid: 751ab5a4a4049fa47853e4e3bad1a380, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-paper
+    second: {fileID: 2100000, guid: f7b2b88f3fce3bd4d8bb255f024d1d4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-paper.002
+    second: {fileID: 2100000, guid: 082421ebad2907e4cb16923a7a3f96d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-paper.003
+    second: {fileID: 2100000, guid: 2ce063a5acc234648bb23ddeec4b2ea2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: books-runes
+    second: {fileID: 2100000, guid: 6543599e464f2264fa1469c93432290f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chains
+    second: {fileID: 2100000, guid: 2f1aa3c34986ead49a0b911f78445046, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: collumns-outerwalls
+    second: {fileID: 2100000, guid: 4f25036121d7d85458bc8b8999448f44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door-knob
+    second: {fileID: 2100000, guid: 306f84ad1d67e4745acb4ee90945c221, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door-knob.001
+    second: {fileID: 2100000, guid: a07602b3b155c9046bb0bcb9bf2ec1f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door-knob2
+    second: {fileID: 2100000, guid: 9d4a20f544c7bc54d8993ce0afb6acb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door-knob2.001
+    second: {fileID: 2100000, guid: beec6f52621d78c4d9adcc529f82f4cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door-wood
+    second: {fileID: 2100000, guid: ae201ed5fe1071a49ba52c7795ee68d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door-wood.001
+    second: {fileID: 2100000, guid: d7499a89c0ca73a4392666848f91cff1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doors-woodenframes.001
+    second: {fileID: 2100000, guid: dd648a655602ece44b47400cc9e4e992, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fireplace-brownrock.001
+    second: {fileID: 2100000, guid: db8049648da3c1543be945f8dbecdfde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fireplace-cement.001
+    second: {fileID: 2100000, guid: 436ed689ce1cfe94f98e33bfcedb1b55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fireplace-cilinders.001
+    second: {fileID: 2100000, guid: b98196ee83d916d4abfbe15e6019c5ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fireplace-darkgreyrock.001
+    second: {fileID: 2100000, guid: 6e078a122dfd41b4ab714124ca171569, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fireplace-rocks.001
+    second: {fileID: 2100000, guid: d331ed88ebb3a6f48bb6978fea037558, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fireplace-whiterock.001
+    second: {fileID: 2100000, guid: be47cb47cf153494086fe404eb581eb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fireplace-woodsticks+chairdetails.001
+    second: {fileID: 2100000, guid: 37347fb668ef31347bf0af8a073972b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knightstatue-armorparts.001
+    second: {fileID: 2100000, guid: 5f2155c991c5400489c5e59ce4dd6267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knightstatue-cilinder.001
+    second: {fileID: 2100000, guid: 88688493a80b5be46826a81a3fb1c934, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knightstatue-shield.001
+    second: {fileID: 2100000, guid: 59447b27fd834024ca5061a7b43711e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: outerwalls.001
+    second: {fileID: 2100000, guid: 9d3a288067b980e46a9c7b4c9628928c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pictureframe.001
+    second: {fileID: 2100000, guid: 11f341534a8c9a840b87ffdc78b8b75c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pictureframe2.001
+    second: {fileID: 2100000, guid: a918615eba6697c429130c1eba4c7f04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: picturepaper.001
+    second: {fileID: 2100000, guid: 48529bbed7cbebc4889503e270b3ce8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: picturepaper2.001
+    second: {fileID: 2100000, guid: 9eb1b5bc16623b649a9be5a6197fb876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: potions-bottle.001
+    second: {fileID: 2100000, guid: a05969362196aba41ab6790eefb1ee92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: potions-hp.001
+    second: {fileID: 2100000, guid: 9a8bc0408a1e997469878a3c0b366185, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: potions-pampur.001
+    second: {fileID: 2100000, guid: 79d0566a932936a4388cd7ad3fac156f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: potions-stamina.001
+    second: {fileID: 2100000, guid: c08567bec7258b44f8be343c69b4be8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: torch.001
+    second: {fileID: 2100000, guid: b8b257359cb41454785fb492f9a01cef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: torch.003
+    second: {fileID: 2100000, guid: 0aa72cec561208247b2b133535725a27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tower-details
+    second: {fileID: 2100000, guid: c76e7e3687018dc4c8103abf3709b494, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tower-stone
+    second: {fileID: 2100000, guid: 042c0c81785db19449c9320e1a8cddad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tower-stone.001
+    second: {fileID: 2100000, guid: d4b38513c8fff16449b11fca5c0bd45f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: treasurechest-chestwood.001
+    second: {fileID: 2100000, guid: cd3177465486aa241880790d161db609, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: treasurechest-keyhole.001
+    second: {fileID: 2100000, guid: 83518468924ecfb4ebf852f801391fff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: treasurechest.001
+    second: {fileID: 2100000, guid: ac1655552d2f2164c906290bf0dd65cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: walls-columnsanddetails.001
+    second: {fileID: 2100000, guid: efadfbc17804e0e458f3fe161f5faf15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: walls-columnsanddetails.002
+    second: {fileID: 2100000, guid: 66548e8d430daaf4f9ce50efebd30a00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: walls-supportingandplatform.001
+    second: {fileID: 2100000, guid: cd1515d2c6ea6b843af98de4a592fe06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: walls-supportingandplatform.002
+    second: {fileID: 2100000, guid: 9ee60f64a26f72844b33af5135ac9989, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: weapons-handle.001
+    second: {fileID: 2100000, guid: ecca892f35743284da0b881454c531da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: weapons-steel.001
+    second: {fileID: 2100000, guid: b1de1bfd6cb87e04b801140cb3927d17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window-details
+    second: {fileID: 2100000, guid: d78a85ad648e4a04bae81678cd3e2f34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood-bookshelves etc.001
+    second: {fileID: 2100000, guid: 2c2cc012284abb74cab3bd69eb63e450, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood-bookshelves etc.002
+    second: {fileID: 2100000, guid: 1f61ed14c38a42f4eb64af2eaab9492c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

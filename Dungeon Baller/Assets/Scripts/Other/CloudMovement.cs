@@ -10,6 +10,8 @@ public class CloudMovement : MonoBehaviour {
 		// pomeraj za vektor brzine
 		transform.Translate (time * speed.x, time * speed.y, time * speed.z);
 
+        transform.position = transform.position + time * speed;
+
 		// unistavanje ako je izasao van opsega
 		if (transform.position.x < -5000 || transform.position.z > 8000) {
 			Destroy (gameObject);

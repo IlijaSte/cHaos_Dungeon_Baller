@@ -123,7 +123,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4467135346146362, guid: 5acb686471188ef43a6f50593b879192, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 58.31951
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 4467135346146362, guid: 5acb686471188ef43a6f50593b879192, type: 2}
       propertyPath: m_LocalPosition.y
@@ -156,6 +156,18 @@ Prefab:
     - target: {fileID: 4467135346146362, guid: 5acb686471188ef43a6f50593b879192, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467135346146362, guid: 5acb686471188ef43a6f50593b879192, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 339.95996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467135346146362, guid: 5acb686471188ef43a6f50593b879192, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 853.9493
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467135346146362, guid: 5acb686471188ef43a6f50593b879192, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 152.41336
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5acb686471188ef43a6f50593b879192, type: 2}
@@ -204,6 +216,11 @@ Prefab:
       propertyPath: cloudSpace
       value: 
       objectReference: {fileID: 1407666850}
+    - target: {fileID: 114148007900030434, guid: 0e6d1ca5ad13f644bb3e67d13fa8c4f8,
+        type: 2}
+      propertyPath: spawnSpeed
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0e6d1ca5ad13f644bb3e67d13fa8c4f8, type: 2}
   m_IsPrefabParent: 0
