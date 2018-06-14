@@ -1,0 +1,47 @@
+ProjectPad
+__________________________________________
+Legend:
+
+Enum Status{New, In Progress, Completed, Closed, Rejected}
+
+Enum Priority{Low, Normal, High, Urgent, Now}
+
+Enum Team{IlijaSte, 1eyedjacky, SeriousFresh}
+
+__________________________________________
+Tasks:
+
+1. Models & Animations - In Progress - High:
+	
+	- Pressure Plate - In Progress - Low
+	- Launcher - In progress  - High 
+	- Spiker - New - Low
+	- Rune - New - High
+	- Wall - New - Low
+	- Ball - Closed
+	- Piston - New - Normal
+	- Flag - New - Normal 
+	- Top Level Model - New - Normal
+	- Select button - New - Normal
+	- Tower Color - New - Low
+
+2. In Unity - In progress - High:
+	
+	- Clouds - In progress - Normal
+	- Waterfall Animation - New - Normal
+	- Flag Animation - New - Normal
+	- Options - New - Normal
+	- Level Selection & Enumeration - In Progress - Normal
+	- Labels for Buttons - New - Low
+	
+3. Skins - New - Normal
+	- Ball - New - Normal
+	- Curves - New - Normal
+
+4. UI - New - High: 
+	- Play Button - New - Normal 
+ 	- Level Circles - New - Normal
+	- Available Items InvPanel - New - Normal
+	- Runes Collected Interface - New - Normal 
+	- Locked Level PNG - Nnew - Low
+5. Tutorial Level - New - Normal
